@@ -13,7 +13,7 @@ int decomposition(int n){
   int count=0;
   int x=n;
   	for(;n%i==0;){
-  			n=n/i;
+  		    n=n/i;
   		    count++;
   		    continue;
 		  }
@@ -22,8 +22,8 @@ int decomposition(int n){
 		  }
 		 
 		  result*=pow(i,count);
-		  	n=x;
-	      count=0;
+		  n=x;
+	          count=0;
 		  
 		  
   
